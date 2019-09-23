@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Console Colors</title>
+</head>
+<body>
+    <h1>Console Colors</h1>
+    <script type="module">
+        import Debug from './debug.js';
+
+        const debug = new Debug('index.html');
+        debug.log('test html', {test:'test'});
+        debug.warn('this is a js console warning in the client');
+        debug.error('this is a js console error in the client');
+        debug.info('this is a js console info in the client');
+    </script>
+</body>
+</html>

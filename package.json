@@ -1,0 +1,23 @@
+{
+  "name": "console-colors",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r esm index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "nodemonConfig": {
+    "ext": "html js json"
+  }
+}
